@@ -1,0 +1,102 @@
+
+.Events {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-left: 50px; */
+}
+
+.Events .EventsTable {
+    border: 1px solid black;
+    font-size: 1.2em;
+    color: lightgrey;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Events .EventsTable td{
+    border: 1px solid black;
+    padding: 10px 15px;
+ }
+ 
+
+.Events .EventsTable thead tr td {
+    background-color: lightslategray;
+    border: 1px solid black;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    /* font-size: 1.0em; */
+    padding: 10px 15px;
+    color: black;
+}
+
+.Events .EventsTable tr:nth-child(2n+1) {
+    background-color: #213b57;
+}
+
+.Events .EventsTable tr td input {
+    background-color: lightgrey;
+    border: 0;
+    outline: 0;
+    padding: 5px;
+    font-weight: 400;
+    font-size: 1.0em;
+    color: black;
+}
+
+tbody button {
+    background-color: skyblue;;
+    color: black;
+    width: auto;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 0;
+    font-size: 1.0em;
+    border-radius: 2px;
+}
+
+.Events .PopUpWindow {
+    position:fixed;
+    width: 30%;
+    border-style: groove;
+    background-color: #213b50;
+    border-color: black;
+    right: 50%;    
+    top: 20%;                 
+    transform: translate(50%, 0);
+    padding: 20px
+}
+
+.Events .PopUpWindow h3  {
+    font-weight: 400;
+    font-size: 1.25em;
+    color: lightgrey;
+}
+
+.Events .PopUpWindow .Buttons{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+    border: 0;
+}
+
+.Events .PopUpWindow button {
+    background-color: skyblue;;
+    color: lightgrey;
+    width: auto;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 1.0em;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 0;
+
+    /* font-size: 1.0em; */
+
+}
